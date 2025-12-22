@@ -304,6 +304,7 @@ flutter create shop_app && cd shop_app
 
 # 3. Install
 flutter pub get
+update test
 
 # 4. Run
 flutter run -d chrome
