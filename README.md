@@ -313,3 +313,6 @@ flutter run -d chrome
 **Enjoy building! 🚀💜**
 local change test
 Realtime Database Rules updated to allow stock decrement via transactions (non-admin).
+## Firebase (Realtime Database Rules)
+Rules were updated in Firebase Console to allow non-admin users to decrement `products/{productId}/stock` via transactions, while keeping full product writes restricted to admins.
+
