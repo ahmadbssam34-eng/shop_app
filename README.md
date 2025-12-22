@@ -312,3 +312,4 @@ flutter run -d chrome
 
 **Enjoy building! 🚀💜**
 local change test
+Realtime Database Rules updated to allow stock decrement via transactions (non-admin).
