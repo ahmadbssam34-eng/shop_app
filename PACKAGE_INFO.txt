@@ -1,0 +1,127 @@
+========================================
+    SHOP APP - PACKAGE INFORMATION
+========================================
+
+Package Contents:
+-----------------
+✅ lib/                  (14 Dart files)
+✅ assets/               (Images and icons folders)
+✅ pubspec.yaml          (Dependencies configuration)
+✅ README.md             (Complete documentation)
+✅ INSTALLATION.md       (Installation guide)
+✅ setup.ps1             (Windows setup script)
+
+Total Files: 18 files
+
+========================================
+    INSTALLATION INSTRUCTIONS
+========================================
+
+IMPORTANT: DO NOT use these files directly!
+
+Follow these steps:
+
+1. Create a new Flutter project:
+   
+   flutter create shop_app
+   cd shop_app
+
+2. Replace these files from the package:
+   
+   - Delete existing lib/ folder
+   - Copy lib/ from package
+   - Copy assets/ from package
+   - Replace pubspec.yaml from package
+
+3. Install dependencies:
+   
+   flutter pub get
+
+4. Run the app:
+   
+   flutter run -d chrome
+
+========================================
+    FILE STRUCTURE
+========================================
+
+shop_app/
+├── lib/
+│   ├── core/
+│   │   ├── constants/
+│   │   │   └── app_constants.dart
+│   │   ├── theme/
+│   │   │   ├── app_colors.dart
+│   │   │   ├── app_theme.dart
+│   │   │   └── app_typography.dart
+│   │   └── widgets/
+│   │       └── product_card.dart
+│   ├── data/
+│   │   ├── models/
+│   │   │   ├── cart_item_model.dart
+│   │   │   └── product_model.dart
+│   │   ├── providers/
+│   │   │   └── cart_provider.dart
+│   │   └── dummy_data.dart
+│   ├── features/
+│   │   ├── auth/
+│   │   │   └── presentation/screens/login_screen.dart
+│   │   ├── cart/
+│   │   │   └── presentation/screens/cart_screen.dart
+│   │   ├── home/
+│   │   │   └── presentation/screens/home_screen.dart
+│   │   └── products/
+│   │       └── presentation/screens/product_detail_screen.dart
+│   └── main.dart
+├── assets/
+│   ├── images/
+│   └── icons/
+└── pubspec.yaml
+
+========================================
+    FEATURES
+========================================
+
+✅ Login Screen
+✅ Home Screen with Hero Carousel
+✅ Product Categories
+✅ Product Details
+✅ Shopping Cart
+✅ Coupon System (SUMMER20, SAVE50, WELCOME)
+✅ RTL Support (Arabic)
+✅ Purple Theme
+
+========================================
+    REQUIREMENTS
+========================================
+
+- Flutter SDK: 3.5.0+
+- Dart SDK: 3.5.0+
+- Android Studio (for emulator)
+- VS Code or Android Studio IDE
+
+========================================
+    QUICK START
+========================================
+
+# Create project
+flutter create shop_app
+cd shop_app
+
+# Replace lib/, assets/, pubspec.yaml
+
+# Install
+flutter pub get
+
+# Run
+flutter run -d chrome
+
+========================================
+    SUPPORT
+========================================
+
+Read README.md for detailed documentation
+Read INSTALLATION.md for step-by-step guide
+Run setup.ps1 for automated setup (Windows)
+
+========================================

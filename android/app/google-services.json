@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "911041877606",
+    "project_id": "herz-210384",
+    "storage_bucket": "herz-210384.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911041877606:android:bf4fc1533760c051ff7fa7",
+        "android_client_info": {
+          "package_name": "com.example.shop_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911041877606-mp0ag10piiri3t1afdd9usb48vf21vm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shop_app",
+            "certificate_hash": "2685a3893bb5324f098c902555b85bd5c4f93b59"
+          }
+        },
+        {
+          "client_id": "911041877606-drccfutmipe9aa7miv3jg3haaqainhho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4iPCHhrwLYQSFDVJUt30WFzU0R7hRryQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911041877606-drccfutmipe9aa7miv3jg3haaqainhho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
